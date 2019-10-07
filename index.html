@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Udacity Portfolio Project">
+	<meta name="author" content="Red Horseman War">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Marwan Kaddar</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="container-fluid">
+
+		<!-- HEADER  CONTENT-->
+		<header class="row pt-3 pb-3 mb-4 border-bottom">
+			<div class="col-1 col-md-1">
+				<img class="header-logo" src="https://cdn.worldvectorlogo.com/logos/udacity.svg" alt="">
+			</div>
+			<div class="col-11 col-md-11">
+				<h1 class="header-title text-right">
+					Red horseman war
+				</h1>
+				<h2 class="header-subtitle text-right">Front End Bunny</h2>
+			</div>
+		</header>
+
+		<!-- BODY SECTION -->
+		<main class="row">
+
+			<!-- HERO SECTION-->
+			<section class="hero col-12">
+					<img class="img-fluid" src="img/coding.png" alt="header image">
+			</section>
+
+			<!-- PROJECT SHOWCASE SECTION -->
+			<section class="projects col-12">
+				<!-- PROJECT TITLE -->
+				
+				<h2 class="section-title mt-5 mb-5">Featured Work</h2>
+
+				<!-- PROJECT CARDS -->
+				<div class="project-showcase">
+					<ul class="projects__list row">
+
+						<li class="projects__list_cont col-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="card">
+								<img class="card-img-top" src="img/android.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h3>Android App</h3>
+									<p class="card-text">Social Media tracker made under the name of bunny tracker.</p>
+									<button disabled="disabled">Still In BETA</button>
+								</div>
+							</div>
+						</li>
+
+						<li class="projects__list_cont col-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="card">
+								<img class="card-img-top" src="img/python.jpg" alt="Card image cap">
+								<div class="card-body">
+									<h3>Python Bot</h3>
+									<p class="card-text">bots made in Python with LINE messenger API.</p>
+									<button disabled="disabled">Closed Source</button>
+								</div>
+							</div>
+						</li>
+
+						<li class="projects__list_cont col-12 col-sm-12 col-md-6 col-lg-4">
+							<div class="card">
+								<img class="card-img-top" src="img/html.png" alt="Card image cap">
+								<div class="card-body">
+									<h3>Website</h3>
+									<p class="card-text">few websites been made in HTML, CSS, JS and php.</p>
+									<a href="#" class="btn btn-dark">display websites</a>
+								</div>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+
+			</section>
+
+		</main>
+	</div>
+	<footer class="container footer">
+		<div class="row py-2">
+			<div class="col">
+          <span class="text-muted px-2">
+            &copy; 2019 Red Horseman war
+          </span>
+				<span class="px-2">
+          </span>
+				<span class="px-2">
+		<button onclick="dark()">Switch color</button>
+		<script>
+			function dark() {
+				if (document.body.style.backgroundColor == 'rgb(255, 255, 255)') {
+
+					document.body.style.backgroundColor = '#333';
+				}
+				else {
+					document.body.style.backgroundColor = 'rgb(255, 255, 255)';
+				}
+			}
+		</script>
+          </span>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
