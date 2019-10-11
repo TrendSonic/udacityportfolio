@@ -14,12 +14,6 @@ h2 {
 	margin: 0;
 }
 
-/*
-*
-*HEADER SECTION
-*
-*/
-
 .header-logo {
 	height: 54px;
 	
@@ -52,12 +46,6 @@ h2 {
 	color: #7d97ad;
 }
 
-/*
-*
-*PROJECT SECTION
-*
-*/
-
 .section-title {
 	font-size: 20px;
 	text-align: center;
@@ -78,22 +66,11 @@ h2 {
 	opacity: 0.9;
 }
 
-/*
-*
-*BOOTSTRAP EDITS
-*
-*/
-
 .row {
 	margin-left: 0;
 	margin-right: 0;
 }
 
-/*
-*
-*Media Queries SECTION
-*
-*/
 @media screen and (min-width: 340px) {
 	.header-logo {
 		margin-left: 0;
@@ -112,8 +89,6 @@ h2 {
 	}
 }
 
-
-/* footer */
 .footer {
 	border-top: 0.1rem solid #7d97ad;
 	text-align: center;
